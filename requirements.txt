@@ -1,0 +1,16 @@
+# Denovia Invitation Platform
+# Tidak ada library eksternal — semua menggunakan Python Standard Library:
+#
+#   sqlite3      → database
+#   json         → JSON parsing
+#   hashlib      → hashing password (SHA-256)
+#   http.server  → built-in HTTP server
+#   urllib.parse → URL parsing & query string
+#   mimetypes    → deteksi tipe file (HTML, CSS, JS, dll)
+#   unicodedata  → normalisasi teks untuk URL slug
+#   re           → regex untuk slug generation
+#   os           → environment variables & file system
+#   sys          → command line arguments
+#   datetime     → tanggal & waktu
+#
+# File ini wajib ada agar Railway mendeteksi project sebagai Python app.
